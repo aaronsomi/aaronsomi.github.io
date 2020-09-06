@@ -19,15 +19,15 @@
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item dropdown active">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Subject
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Maths</a>
+              <a class="dropdown-item" href="maths.html">Maths</a>
               <a class="dropdown-item" href="#">Physics</a>
               <a class="dropdown-item" href="#">Computer Science</a>
             </div>
@@ -44,78 +44,42 @@
         </ul>
       </div>
     </nav>
-    <div class="card w-100">
-      <img class="card-img-top" src="banners/maths.jpg" alt="Card image" style="width:100%">
-      <div class="card-img-overlay">
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Maths
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Physics</a>
-            <a class="dropdown-item" href="#">Computer Science</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-    <div class="container-fluid p-3">
-      <div class="row">
-        <div class="col-sm-3"> 
-          <div class="panel panel-primary">
-            <div class="panel-body">
-              <img src="https://cdn1.iconfinder.com/data/icons/social-object-set-5-3/74/15-512.png" class="img-fluid" alt="Image">
-            </div>
-            <h2>Sacha</h2>
-            <div class="panel-footer">Physics Undergrad</div>
-            <div class="p-1"></div>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-              Message
-            </button>
-            
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Send message</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <form action="https://formspree.io/xaypgvlk" method="POST">
-                      <div class="form-group">
-                        <label for="_replyto">Email address</label>
-                        <input type="email" class="form-control" id="_replyto" aria-describedby="emailHelp" name="_replyto">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                      </div>
-                      <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" name="name">
-                      </div>
-                      <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-primary">Send</button>
-                    </form>
-                  </div>
-                </div>
-              </div>
+    
+    <div class="container p-3">  
+      <h1>Private tutors in Durham and online </h1>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container h-50">
+              <img src="https://lh3.googleusercontent.com/proxy/PT3jMbt37V_yweYC7P4zhRCY0lWcWIsYi-fwfh8I6Zyp0gUK3p52pFHwoQb50u0X-W4kKv87sIT8i8VJ0jS_2rvuo7EpXzNxz_w3ZcbuEDbaxd0WEAtIpbAXOEHwmF5W-xWl3LZMyyatJw" class="d-block w-100" alt="...">
             </div>
           </div>
-       </div>
-        <div class="col-md-7 pt-2">
-          <h3>About me</h3>
-          <p>ipsum dolor sit amet et delectus accommodare his consul copio</p>
+          <div class="carousel-item">
+            <div class="container h-50">
+              <img src="https://lh3.googleusercontent.com/proxy/PT3jMbt37V_yweYC7P4zhRCY0lWcWIsYi-fwfh8I6Zyp0gUK3p52pFHwoQb50u0X-W4kKv87sIT8i8VJ0jS_2rvuo7EpXzNxz_w3ZcbuEDbaxd0WEAtIpbAXOEHwmF5W-xWl3LZMyyatJw" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container h-50">
+              <img src="https://lh3.googleusercontent.com/proxy/PT3jMbt37V_yweYC7P4zhRCY0lWcWIsYi-fwfh8I6Zyp0gUK3p52pFHwoQb50u0X-W4kKv87sIT8i8VJ0jS_2rvuo7EpXzNxz_w3ZcbuEDbaxd0WEAtIpbAXOEHwmF5W-xWl3LZMyyatJw" class="d-block w-100" alt="...">
+            </div>
+          </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-    </div>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
