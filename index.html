@@ -11,9 +11,11 @@
     
     <title>Active Tutors</title>
   </head>
-  <body>
+  <body style="height: 100vh">
     <nav class="navbar navbar-expand-lg navbar navbar-light">
-      <h1><a class="navbar-brand" href="index.html"><span>Active</span> Tutors</a></h1>
+      <h1><a class="navbar-brand" href="index.html" style="padding-top: 0;">
+        <img src="logos/main.png" style = "max-width:30%;" alt="">
+      </a></h1>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -48,8 +50,8 @@
     
     <div class="container p-3">  
       <div id ="home" class="jumbotron">
-      <h1>Private tutors in Durham and online </h1>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <h1>Online Tutoring from Experienced Teachers </h1>
+      <div hidden id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -81,43 +83,17 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <h5>We offer one-to-one tution in-person or online, just choose a subject below to get started:</h5>
+      <h5>We offer one-to-one tutoring for GSCE, A-Level and International Baccalaureate courses, choose a
+        subject below to get started!</h5>
       <div class="row pt-3">
         <div class="col-sm-4 pb-4">
-          <div class="card">
-            <div class="card-body pt-5" style="background: 
-            linear-gradient(
-              rgba(189, 185, 185, 0.637),
-              rgba(4, 28, 241, 0.637)
-            )">
-              <h4 class="card-title">Maths</h4>
-              <a href="maths.html" class="stretched-link"></a>
-            </div>
-          </div>
+          <a class="btn btn-1 btn-block customBtn">MATHS</a>
         </div>
         <div class="col-sm-4 pb-4">
-          <div class="card">
-            <div class="card-body pt-5" style="background:  
-            linear-gradient(
-              rgba(189, 185, 185, 0.637),
-              rgba(138, 31, 238, 0.637)
-            )">
-              <h4 class="card-title">Physics</h4>
-              <a href="physics.html" class="stretched-link"></a>
-            </div>
-          </div>
+          <a class="btn btn-2 btn-block customBtn">PHYSICS</a>
         </div>
         <div class="col-sm-4 pb-4">
-          <div class="card">
-            <div class="card-body pt-5" style="background: 
-            linear-gradient(
-              rgba(189, 185, 185, 0.637),
-              rgba(138, 31, 238, 0.637)
-            )">
-              <h4 class="card-title">Computer Science</h4>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div>
+          <a class="btn btn-3 btn-block customBtn">CHEMISTRY</a>
         </div>
     </div>
 </div>
