@@ -113,3 +113,12 @@ body {
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
    }
+
+   @media (max-width: 1000px){
+   .carousel-inner .carousel-item {
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 0.2s;
+  }
+  }
