@@ -72,6 +72,22 @@ body {
  )
 }
 
+#biology {
+  background: 
+ linear-gradient(
+  rgba(189, 185, 185, 0.637),
+  rgba(189, 185, 185, 0.637),
+  rgba(189, 185, 185, 0.637),
+  rgba(189, 185, 185, 0.637),
+  rgba(189, 185, 185, 0.637),
+  rgba(189, 185, 185, 0.637),
+  rgba(189, 185, 185, 0.637),
+  rgba(189, 185, 185, 0.637),
+  rgba(189, 185, 185, 0.637),
+  rgba(123, 230, 176, 0.637)
+ )
+}
+
 #psychology {
   background: 
  linear-gradient(
