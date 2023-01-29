@@ -47,12 +47,18 @@
         </ul>
       </div>
     </nav>
-    
-    <div class="container p-3">  
+      <div class="container p-3">  
       <div id ="home" class="jumbotron">
-
-        <div style="text-align:center;padding-bottom:65px">
-        <iframe max-width="95%" width="896" height="504" modestbranding=1  src="https://www.youtube.com/embed/9R8q6LoVzDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+         <style>
+          .video-container { width: 100%;height:600px}
+          @media only screen and (max-width:500px){
+          .video-container {
+            width: 80%; height:400px;
+          }
+        }
+         </style>
+        <div class="video-container" style="text-align:center">
+          <iframe width="90%" height="90%" modestbranding=1  src="https://www.youtube.com/embed/9R8q6LoVzDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
       <div hidden id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
